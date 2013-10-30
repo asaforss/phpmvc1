@@ -1,0 +1,278 @@
+@import url(../css/normalize.css);
+@import url(../css/main.css);
+/** 
+ * My own style, based on HTML5Boilerplate standard style.
+ */
+
+/**
+ * Structure
+ */
+html {
+  overflow-y:scroll;
+}
+
+body {
+  background-color:#fff;
+  color:#333;
+}
+
+#above {
+  border-bottom:1px solid #eee;
+  margin-bottom:4px;
+  padding-left:1em;
+  color:#333;
+  font-size:0.7em;
+}
+
+#header,
+#main,
+#footer {
+  margin:8px auto;
+  padding:1em;
+  width:970px;
+  background-color:#fff;
+  
+  
+}
+
+#content {
+   float:left;
+    width:550px;
+    
+
+}
+
+#footer {
+  font-size:0.9em;
+}
+
+#footer,
+#footer a {color:#666;}
+#footer a:hover {color:#333; text-decoration:none;}
+
+#banner {
+  display:table;
+  margin-bottom:10px;
+}
+
+.site-logo,
+.site-title,
+.site-slogan {
+  display:table-cell;
+  width:inherit;
+  vertical-align:middle;
+  text-align:left;
+}
+
+.site-logo {}
+.site-title {
+  font-family: 'arial'', sans-serif', cursive;
+  line-height:0;
+  font-size:3em;
+  padding-left:20px;
+  color:#333;
+  text-shadow:#ccc 4px -4px 4px;
+}
+.site-slogan {
+  font-family: 'Arial', cursive;
+  padding-left:20px;
+  font-style:italic;
+}
+
+
+/**
+ * Navbar
+ */
+#navbar {
+ clear: both;
+    display: block;
+    padding: 0 1em 0 0;
+    background: #ADADFF;
+}
+#navbar a {padding: 0.3em 1em 0 1em;
+    color: #555555;
+    font-family: Arial, sans-serif;
+    text-decoration:none;}
+#navbar a:hover { color: #111111; background: #ffff99; }
+#navbar a.selected {
+    background:#ffff99;}
+    
+
+
+
+/**
+ * Fonts
+ */
+h1{}
+/*h1,h2{
+  border-bottom:1px solid #dddddd;
+} */
+
+
+/**
+ * Links
+ */
+a,
+a:visited {
+  color:#A84C00;
+}
+
+
+/**
+ * Figure and images
+ */
+figure {
+  display: table;
+  width:1px;
+  border: 2px solid #eee;
+  margin:1em;
+  padding:2px;
+}
+
+img, figcaption {
+  display: table-row;
+  vertical-align: bottom;
+}
+
+a figcaption,
+figcaption {
+  font-style:italic;
+  font-size:smaller;
+  color:#666;
+}
+
+figure.right{margin-right:0;}
+figure.top{margin-top:0;}
+figure.fullwidth{margin-left:0;margin-right:0;}
+
+a:hover figure {
+  background-color:#eee;
+  border:2px solid #999;
+}
+
+
+/**
+ * byline & signature
+ */
+.byline {
+  clear: both;
+  border-top: 1px dashed #999;
+  margin-top:2em;
+  padding: 1em;
+  color: #666;
+  font-size: smaller;
+  font-style:italic;
+}
+
+.byline img {padding:2px;outline:#999 groove 1px;}
+
+
+/**
+ * Misc classes
+ */
+.right {float:right;} 
+
+
+
+/**
+ * General elements
+ */
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+}
+/* column-count */
+.col2 {
+ -moz-column-count:2;
+ -webkit-column-count:2;
+ column-count:2;
+  -moz-column-count:2;
+ -webkit-column-count:2;
+ }
+ 
+.dotted {border: none; border-top:dotted; color:  #aee6f9;}
+.smallimg{max-width: 100px;}
+.center {text-align: center;}
+
+.right {float:right;}
+.left {float:left;}
+
+ 
+/* html5 elements
+-------------------------------------------------------- 
+
+*/
+article,header,footer,nav,main,section,aside,figure,figcaption{display:block;}
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+ 
+ 
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  padding-top: 4px;
+  background-color: #aee6f9;
+}
+/* 
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+.sitelogo {
+    width: 80px;
+}*/
+
+ 
+/*#game100 {
+    width: 500px;
+    padding:10px;
+    background-color: #d6d9ed;
+}
+#textgame{
+    min-height: 380px;
+}
+p#congrats {
+    font-size: large*/
+/*       
+}*/
+
+/**
+ * Layout for footer
+ */
+#footer {
+  clear: both;
+  margin-top: 40px;
+  border-top: 1px solid #aee6f9;
+  padding-top: 15px;
+  font-style: italic;
+  font-size: small;
+}
+ 
+.sitefooter {
+  color: #666;
+}
+
+
+root { 
+    display: block;
+}
+
